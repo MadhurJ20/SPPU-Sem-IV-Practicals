@@ -5,7 +5,7 @@ SE A Computer
 RMDSSOE, Warje, Pune
 */
 /*
-Implementation of a direct access file -Insertion and deletion of a
+Implementation of a direct access file - Insertion and deletion of a
 record from a direct access file 
 */
 #include <stdio.h>
@@ -23,7 +23,7 @@ void display();
 void create();
 void update();
 
-char * arrr = "/home/madhur/StudentRecord.txt";
+char * arrr = "StudentRecord.txt";
 
 FILE *fp, *fp1;
 int count = 0;
